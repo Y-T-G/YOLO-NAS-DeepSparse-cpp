@@ -83,7 +83,7 @@ The following benchmarks were done on Google Colab using Intel® Xeon® Processo
 | ONNX C++ (via OpenCV DNN) | 962.27ms    | 1.04    | [Hyuotu](https://github.com/Hyuto/yolo-nas-onnx/tree/master/yolo-nas-cpp) |
 | ONNX Python               | 626.37ms    | 1.59    | [Hyuotu](https://github.com/Hyuto/yolo-nas-onnx/tree/master/yolo-nas-py)  |
 | OpenVINO C++              | 628.04ms    | 1.59    | [Y-T-G](https://github.com/Y-T-G/yolo-nas-openvino-cpp)                   |
-| DeepSparse                | 565.75ms    | 1.83    | [Y-T-G](https://github.com/Y-T-G/yolo-nas-deepsparse-cpp)                 |
+| DeepSparse C++            | 565.75ms    | 1.83    | [Y-T-G](https://github.com/Y-T-G/yolo-nas-deepsparse-cpp)                 |
 
 ## Authors
 

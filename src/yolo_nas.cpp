@@ -63,6 +63,7 @@ void YoloNAS::letterbox(cv::Mat& source, cv::Mat& dst, std::vector<float>& ratio
     ratios.push_back(yRatio);
 }
 
+// Adapted from https://github.com/mgoin/YOLOv5-and-DeepSparse-in-CPP/blob/b505737a34cefdcba2d007fe47347406c2ea73a8/yolov5.cpp#L113C5-L113C5
 std::vector<deepsparse::tensor_t> YoloNAS::pre_process_deepsparse(cv::Mat& blob, bool is_quantized = false)
 {
     std::vector<deepsparse::tensor_t> inputs;

@@ -37,9 +37,7 @@ YoloNAS::YoloNAS(std::string modelPath, std::vector<int> imgsz, bool gpu, float 
 
     deepsparse::engine_config_t config{modelPath, batchSize, numThreads};
 
-    std::cout << "loading model\n";
     engine = std::make_shared<deepsparse::engine_t>(deepsparse::engine_t(config));
-    std::cout << "done loading model\n";
 
     modelInputShape = deepsparse::dimensions_t({ 1, 3, static_cast<uint64_t>(imgsz[1]), static_cast<uint64_t>(imgsz[0]) });
 
